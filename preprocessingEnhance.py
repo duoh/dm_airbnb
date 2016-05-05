@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime, date
 
-data = pd.read_csv('/Users/duoh/Documents/Mahidol/Data Mining/project/dataset/train_users_2.csv')
+data = pd.read_csv(',/train_users_2.csv')
 
 data = data.drop(['id','date_first_booking'], axis=1)
 
@@ -96,4 +96,4 @@ for feature in onehot_features:
     data = data.drop([feature], axis=1)
     data = pd.concat((data, dummy), axis=1)
 
-data.to_csv('/Users/duoh/Documents/Mahidol/Data Mining/project/preprocessDataEnhance.csv',index=False)
+data.to_csv('./preprocessDataEnhance.csv',index=False)
