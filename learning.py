@@ -71,7 +71,7 @@ import operator
 
 np.random.seed(0)
 
-data = pd.read_csv('/Users/duoh/Documents/Mahidol/Data Mining/project/preprocessData.csv')
+data = pd.read_csv('./preprocessData.csv')
 
 #Sampling
 #np.random.seed(42)
