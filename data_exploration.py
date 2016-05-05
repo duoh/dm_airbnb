@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-trains = pd.read_csv('/Users/duoh/Documents/Mahidol/Data Mining/project/dataset/train_users_2.csv')
+trains = pd.read_csv('./train_users_2.csv')
 print(trains.info())
 print(trains.head())
 plt.style.use(['seaborn-whitegrid', 'seaborn-pastel'])
